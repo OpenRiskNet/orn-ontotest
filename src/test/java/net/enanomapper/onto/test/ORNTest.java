@@ -12,7 +12,7 @@ public class ORNTest extends AbstractOntologyTest {
 			root = System.getProperty("ROOT");
 		}
 		return Arrays.asList(
-		    root + "ORN Ontology/openrisknet.owl"
+		    root + "ORN%20Ontology/openrisknet.owl"
 		);
 	}
 

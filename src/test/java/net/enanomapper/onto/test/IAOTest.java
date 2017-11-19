@@ -3,7 +3,7 @@ package net.enanomapper.onto.test;
 import java.util.Arrays;
 import java.util.List;
 
-public class CHEBITest extends AbstractOntologyTest {
+public class IAOTest extends AbstractOntologyTest {
 
 	@Override
 	protected List<String> getOntologyResource() {
@@ -12,7 +12,8 @@ public class CHEBITest extends AbstractOntologyTest {
 			root = System.getProperty("ROOT");
 		}
 		return Arrays.asList(
-		    root + "CHEBI-ORN/chebi-slim.owl"
+		    root + "IAO/iao-slim.owl"
 		);
 	}
+
 }
